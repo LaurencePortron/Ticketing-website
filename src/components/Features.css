@@ -1,0 +1,67 @@
+* {
+  font-family: 'Inter', sans-serif;
+  text-align: left;
+}
+
+.pricing-table {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  flex-direction: column;
+  align-items: center;
+}
+.tableheader h1 {
+  font-size: 70px;
+  background-image: linear-gradient(to right, rgb(83, 83, 131), white);
+  background-clip: text;
+  color: transparent;
+  margin: 0;
+}
+
+.tableheader p {
+  color: white;
+}
+
+table {
+  border-collapse: collapse;
+  width: 700px;
+}
+
+.header-features {
+  font-size: 30px;
+  background-image: linear-gradient(to right, rgb(83, 83, 131), white);
+  background-clip: text;
+  color: transparent;
+}
+
+table td {
+  border: 1px solid white;
+}
+
+tr {
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  border-top: 1px solid white;
+}
+
+tr,
+td,
+th {
+  padding: 10px;
+  color: white;
+}
+
+caption {
+  font-size: 50px;
+  margin-bottom: 30px;
+  text-align: center;
+  color: white;
+}
+
+.subheader {
+  font-size: 20px;
+  background-image: linear-gradient(to right, rgb(83, 83, 131), white);
+  background-clip: text;
+  color: transparent;
+}

@@ -1,0 +1,77 @@
+* {
+  font-family: 'Inter', sans-serif;
+  color: #30364b;
+}
+
+#footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #d6d4d9;
+  height: 250px;
+}
+
+.footer-top {
+  display: flex;
+}
+
+.icons {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.footer-top ul {
+  margin-left: 50px;
+}
+
+.footer-top a {
+  padding: 5px;
+  text-align: left;
+  color: #30364b;
+}
+
+.footer-bottom {
+  margin-right: 50px;
+}
+.modal p {
+  color: #30364b;
+}
+.modal input {
+  padding: 10px 16px 10px 20px;
+}
+.btn {
+  padding: 10px 16px 10px 20px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #d6d4d9;
+  border-radius: 4px;
+  background-color: #30364b;
+  color: #d6d4d9;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 700;
+  letter-spacing: 0.4px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.test-button {
+  padding: 10px 16px 10px 20px;
+  border: 2px solid #d6d4d9;
+  border-radius: 4px;
+  background-color: #30364b;
+  color: #d6d4d9;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.button-container {
+  display: flex;
+  align-items: center;
+}
+
+.button-container p {
+  margin-right: 5px;
+  color: #30364b;
+  text-decoration: underline;
+}

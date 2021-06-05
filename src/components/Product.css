@@ -1,0 +1,141 @@
+* {
+  font-family: 'Inter', sans-serif;
+}
+
+.product-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+  margin-top: 100px;
+  margin-right: 50px;
+}
+
+.header-container {
+  display: flex;
+  padding: 40px;
+}
+
+.ticketing-header {
+  background-image: linear-gradient(to right, rgb(83, 83, 131), white);
+  background-clip: text;
+  color: transparent;
+  font-size: 70px;
+  margin: 0;
+}
+
+.about-ticketing-container p {
+  text-align: justify;
+  margin: 0;
+  color: white;
+}
+
+.about-ticketing-container {
+  display: flex;
+  margin-top: 100px;
+}
+
+.introduction {
+  padding: 40px;
+}
+
+.introduction h1 {
+  font-size: 50px;
+  background-image: linear-gradient(to right, rgb(83, 83, 131), white);
+  background-clip: text;
+  color: transparent;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.introduction p {
+  font-size: 18px;
+}
+
+.ticket-sample {
+  display: flex;
+  margin-top: 100px;
+}
+.image-container {
+  display: flex;
+}
+.image-container img {
+  margin-right: 10px;
+  padding: 40px;
+  width: 200px;
+}
+.feature-container {
+  padding: 40px;
+}
+
+.feature-container h3,
+.feature-container p {
+  text-align: justify;
+  color: white;
+}
+
+.feature-sections {
+  display: flex;
+  align-items: center;
+}
+
+.feature-headers {
+  margin-left: 10px;
+  /* background-image: linear-gradient(to right, rgb(83, 83, 131), white);
+  background-clip: text; */
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.features {
+  padding: 40px;
+}
+.ind-section {
+  margin-bottom: 4%;
+}
+
+.ind-section p {
+  font-size: 18px;
+}
+
+.gif-section {
+  display: flex;
+  color: white;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.gif-section h3,
+.gif-section p {
+  color: white;
+  margin-right: 10px;
+}
+
+.image-section {
+  display: flex;
+  margin-top: 100px;
+  width: 50%;
+}
+
+.cheat {
+  margin: 100px;
+}
+
+.last-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.last-section p {
+  text-align: justify;
+  color: white;
+}
+
+.last-section h3 {
+  text-align: justify;
+  color: white;
+}
